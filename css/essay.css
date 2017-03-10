@@ -9,7 +9,7 @@
 }
 .essay p{
 	margin: 35px 30px;
-	overflow: hidden;
+	/*overflow: hidden;*/
     /*text-overflow: ellipsis;*/
    /* white-space: nowrap;*/
 }

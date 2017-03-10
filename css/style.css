@@ -3,7 +3,7 @@
 	
 }
 body{
-	background: url(../img/timg.jpg) no-repeat;
+	background: url(../img/timg.jpg) no-repeat fixed;
 }
 .header{
 
