@@ -67,28 +67,25 @@ body{
 .flash{
 	margin-top: 50px;
 	margin-left: -140px;
+	/*width: 150px;
+	/*height: 400px;*/
+	/*background-color: #fff;*/
+	float: left;
+	box-shadow: 2px 2px 2px 2px gray;
+	border-radius: 20px;
 	width: 150px;
 	height: 400px;
 	background-color: #fff;
 	float: left;
-	box-shadow: 2px 4px 2px 2px gray;
-	border-radius: 20px;
-	
-
-}
-
-
-.aside{
-    width: 150px;
-	height: 400px;
-	background-color: #fff;
-	float: left;
-	border-radius: 20px;
+	/*border-radius: 20px;*/
 	border: 1px solid gray;
-	
-	
+	position: absolute;
+	top:50px;
 
 }
+
+
+
 .flash:hover{
 	animation-name:myani;
 	animation-duration:0.2s;
@@ -107,7 +104,7 @@ body{
 		margin-left: 0px;
 	}
 }
-.aside a{
+.flash a{
 
 	display: block;
 	text-align: center;
@@ -123,30 +120,53 @@ body{
 	border-radius: 20px;
 
 }
-.aside a:link, .aside a:visited{
+.flash a:link, .flash a:visited{
 	background-color: #fff;
 }
-.aside a:hover, .aside a:active{
+.flash a:hover, .flash a:active{
 	background-color: #f8f8ff;
 }
-.index{
 
-	float: right;
-	width: 1190px;
-}
-.section{
+#section{
 
 	width: 700px;
 	height:300px;
-	height-max: 400px;
 	background-color: rgba(248,248,255,0.7);
-	margin: 50px auto;
+	margin: auto;
+	margin-top: 80px;
 	border: 1px solid gray;
-	box-shadow: 2px 4px 2px 2px gray;
+	box-shadow: 1px 2px 1px 1px gray;
 	border-radius: 8px;
+	overflow-y: hidden;
+	text-align: center;
+
 
 
 }
+p{
+
+margin-bottom: 10px;
+}
+pre{
+	font-size: 20px;
+}
+
+button{
+width:100px;
+margin:0px auto;
+border: 1px solid gray;
+box-shadow: 1px 1px 1px 1px gray;
+background-color: rgba(248,248,255,0.7);
+border-radius: 8px;
+text-align: center;
+display: none;
+position: relative;
+bottom: 20px;
+left: 300px;
+
+
+}
+
 .footer{
 	height: 50px;
 	width: 100%;
