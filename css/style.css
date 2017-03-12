@@ -3,7 +3,7 @@
 	
 }
 body{
-	background: url(../img/timg.jpg) no-repeat fixed;
+	background: url(../img/timg.jpg) 100% 100% no-repeat fixed;
 }
 .header{
 
@@ -79,7 +79,7 @@ body{
 	float: left;
 	/*border-radius: 20px;*/
 	border: 1px solid gray;
-	position: absolute;
+	position: fixed;         /*设置侧边栏不随屏幕滚动*/
 	top:50px;
 
 }
